@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lakshay App Store 🚀 — Premium Mobile Apps by Lakshay Kumar</title>
+  <meta name="description" content="Discover and directly download high-quality Android apps created by Lakshay Kumar. Fast, free, and open-source APK downloads.">
+  <link rel="icon" type="image/png" href="assets/couple-reminder-icon.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Header -->
+  <header class="header">
+    <div class="nav-container">
+      <div class="brand">
+        <div class="brand-icon">🚀</div>
+        <div class="brand-text">
+          <span class="brand-title">Lakshay App Store</span>
+          <span class="brand-badge">Official Store</span>
+        </div>
+      </div>
+
+      <div class="nav-search">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="searchInput" placeholder="Search apps, utilities, tools...">
+      </div>
+
+      <div class="nav-actions">
+        <a href="https://github.com/lakshaykumar-dev" target="_blank" rel="noopener" class="btn-github">
+          <svg height="18" width="18" viewBox="0 0 16 16" fill="currentColor">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+          </svg>
+          <span>GitHub</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Spotlight -->
+  <main class="main-content">
+    <div class="category-chips">
+      <button class="chip active" data-category="all">All Apps</button>
+      <button class="chip" data-category="lifestyle">Couples & Lifestyle</button>
+      <button class="chip" data-category="productivity">Productivity</button>
+      <button class="chip" data-category="utilities">Utilities</button>
+    </div>
+
+    <!-- Featured App Card -->
+    <section class="featured-section">
+      <div class="section-label">✨ FEATURED APP OF THE WEEK</div>
+
+      <div class="app-card featured-card" id="couple-reminder-card">
+        <div class="app-card-hero">
+          <div class="app-icon-wrapper">
+            <img src="assets/couple-reminder-icon.png" alt="Couple Reminder App Icon" class="app-icon">
+            <div class="verified-badge" title="Verified Safe Build">✓</div>
+          </div>
+
+          <div class="app-header-info">
+            <div class="app-title-row">
+              <h1 class="app-title">Couple Reminder 💕</h1>
+              <span class="version-tag" id="cr-version">v1.4.0</span>
+            </div>
+            <p class="app-developer">By <a href="https://github.com/lakshaykumar-dev" target="_blank">Lakshay Kumar</a> • Shared Space for Two</p>
+            <p class="app-tagline">Real-time collaborative todo, grocery & date-night checklist app designed specifically for couples. Features instant partner notifications and smart 3-hour reminder toggles.</p>
+
+            <div class="app-meta-stats">
+              <div class="meta-item">
+                <span class="meta-value">⭐ 5.0</span>
+                <span class="meta-label">Rating</span>
+              </div>
+              <div class="meta-divider"></div>
+              <div class="meta-item">
+                <span class="meta-value" id="cr-size">~38 MB</span>
+                <span class="meta-label">APK Size</span>
+              </div>
+              <div class="meta-divider"></div>
+              <div class="meta-item">
+                <span class="meta-value">Android 8.0+</span>
+                <span class="meta-label">Min OS</span>
+              </div>
+              <div class="meta-divider"></div>
+              <div class="meta-item">
+                <span class="meta-value" style="color: #10B981;">100% Free</span>
+                <span class="meta-label">No Ads • Open</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Direct Download Action Block -->
+          <div class="download-action-box">
+            <a href="https://github.com/lakshaykumar-dev/couple-reminder-app/releases/latest/download/CoupleReminder-release.apk" 
+               id="directDownloadBtn" 
+               class="btn-primary-download" 
+               download>
+              <div class="btn-download-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+              </div>
+              <div class="btn-download-text">
+                <span class="download-title">Download APK</span>
+                <span class="download-subtitle" id="btn-version-text">Latest v1.4.0 • Direct</span>
+              </div>
+            </a>
+
+            <div class="secondary-actions">
+              <a href="https://github.com/lakshaykumar-dev/couple-reminder-app/releases/latest" target="_blank" class="btn-secondary" title="View all release notes and build assets">
+                <span>Release Notes</span>
+                <span class="external-icon">↗</span>
+              </a>
+              <button class="btn-secondary" id="qrToggleBtn" title="Scan QR Code to download directly on your phone">
+                <span>📱 Scan QR</span>
+              </button>
+            </div>
+
+            <div class="qr-modal-preview" id="qrContainer" style="display: none;">
+              <img id="qrImage" src="" alt="Download QR Code">
+              <p>Scan with your phone camera to download directly!</p>
+            </div>
+
+            <div class="download-guarantee">
+              <span class="shield-icon">🛡️</span> Direct download from verified GitHub Releases
+            </div>
+          </div>
+        </div>
+
+        <!-- Screenshots Gallery -->
+        <div class="app-screenshots-section">
+          <h3 class="section-title">Screenshots & UI Preview</h3>
+          <div class="screenshots-scroll">
+            <div class="screenshot-card">
+              <img src="assets/couple-reminder-splash.png" alt="AI Animated Splash Screen">
+              <span class="screenshot-caption">✨ AI Animated Splash Screen</span>
+            </div>
+            <div class="screenshot-card">
+              <img src="assets/screen-list.png" alt="Real-time Task List & 3-Hour Bell Reminders">
+              <span class="screenshot-caption">🔔 3-Hour Push Reminders & Categories</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Features Grid -->
+        <div class="app-details-grid">
+          <div class="details-column">
+            <h3 class="section-title">Key Highlights</h3>
+            <ul class="features-list">
+              <li>
+                <div class="feature-icon">🔔</div>
+                <div class="feature-content">
+                  <strong>3-Hour Smart Reminder Toggles</strong>
+                  <span>Every task has an individual notification bell to ping both partners if left unfinished.</span>
+                </div>
+              </li>
+              <li>
+                <div class="feature-icon">⚡</div>
+                <div class="feature-content">
+                  <strong>Zero-Lag Instant Sync (0ms Cache)</strong>
+                  <span>Offline-first in-memory architecture for instant tab navigation and 100% reliable cloud updates.</span>
+                </div>
+              </li>
+              <li>
+                <div class="feature-icon">📲</div>
+                <div class="feature-content">
+                  <strong>Real-time Push Notifications</strong>
+                  <span>Automatic background alerts when your partner adds or checks off an item.</span>
+                </div>
+              </li>
+              <li>
+                <div class="feature-icon">🎨</div>
+                <div class="feature-content">
+                  <strong>Custom Dynamic Tabs</strong>
+                  <span>Create unlimited custom categories like Groceries, Date Nights, Movies, and Chores.</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="details-column">
+            <h3 class="section-title">How to Install on Android</h3>
+            <div class="install-steps">
+              <div class="step-item">
+                <span class="step-num">1</span>
+                <div class="step-desc">
+                  <strong>Download APK</strong>
+                  <span>Click the Download button above or scan the QR code with your phone.</span>
+                </div>
+              </div>
+              <div class="step-item">
+                <span class="step-num">2</span>
+                <div class="step-desc">
+                  <strong>Open Downloaded File</strong>
+                  <span>Tap on the downloaded <code>CoupleReminder-release.apk</code> in your browser notifications.</span>
+                </div>
+              </div>
+              <div class="step-item">
+                <span class="step-num">3</span>
+                <div class="step-desc">
+                  <strong>Allow & Enjoy</strong>
+                  <span>If prompted, enable <em>"Install unknown apps"</em> for your browser and tap <strong>Install</strong>.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- More Apps Section -->
+    <section class="more-apps-section">
+      <h2 class="section-title">More Apps by Lakshay</h2>
+
+      <div class="apps-grid">
+        <div class="mini-app-card coming-soon">
+          <div class="mini-icon">📊</div>
+          <div class="mini-info">
+            <h4>Smart Expense Tracker</h4>
+            <p>Minimalist money management with real-time budget insights.</p>
+            <span class="status-badge">In Development</span>
+          </div>
+        </div>
+
+        <div class="mini-app-card coming-soon">
+          <div class="mini-icon">🏥</div>
+          <div class="mini-info">
+            <h4>Health AI Companion</h4>
+            <p>Smart health record insights and daily vitals log.</p>
+            <span class="status-badge">In Development</span>
+          </div>
+        </div>
+
+        <div class="mini-app-card coming-soon">
+          <div class="mini-icon">🎯</div>
+          <div class="mini-info">
+            <h4>Daycounter & Milestones</h4>
+            <p>Keep track of important life goals and couple anniversaries.</p>
+            <span class="status-badge">Coming Soon</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <div class="footer-brand">Lakshay App Store 🚀</div>
+        <p>Independent mobile software development by Lakshay Kumar. Built with React Native & Firebase.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="https://github.com/lakshaykumar-dev" target="_blank">GitHub Profile</a>
+        <a href="https://github.com/lakshaykumar-dev/couple-reminder-app" target="_blank">Couple Reminder Repo</a>
+        <a href="https://github.com/lakshaykumar-dev/couple-reminder-app/releases" target="_blank">All Releases</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Lakshay Kumar. Open-source under MIT License.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
